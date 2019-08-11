@@ -6,55 +6,74 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+      integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+      crossorigin="anonymous"
+    />
   </head>
   <body>
-    <header></header>
-    <main>
-      <div class="content">
-        <div class="content__mainTitle">Sign in</div>
-        <div class="content__inputContent">
-          <input
-            type="text"
-            class="content__inputContent-email"
-            placeholder=" email"
+    <div class="background">
+      <div class="display"></div>
+      <div class="header">
+        <div class="header__time">9:41</div>
+        <div class="header__icon">
+          <i class="fas fa-signal"></i>
+          <i class="fas fa-wifi"></i>
+          <i class="fas fa-battery-full"></i>
+        </div>
+      </div>
+      <div class="nav">
+        <i class="fas fa-arrow-left"></i>
+        <span class="profile">Profile</span>
+        <i class="fas fa-bars"></i>
+      </div>
+      <div class="frofile">
+        <div class="frofile__top">
+          <img
+            src="https://avatars3.githubusercontent.com/u/37828337?s=460&v=4"
+            alt=""
+            class="frofile__img"
           />
-          <input
-            type="text"
-            class="content__inputContent-password"
-            placeholder=" password"
-          />
-          <span class="content__inputContent-quePassword"
-            >Forgot Password?</span
-          >
         </div>
-        <div class="content__checkarea">
-          <input
-            type="checkbox"
-            class="content__inputContent-checkbox"
-            checked
-          />Remember Me
-        </div>
-        <div class="content__signin">
-          sign in
-        </div>
-        <div class="content__or">OR</div>
-        <div class="btn">
-          <div class="btn__facebook">Facebook</div>
-          <div class="btn__twitter">Twitter</div>
-        </div>
-        <div class="content__firstfooter">
-          <div class="content_content__firstfooterContentArea">
-            <span class="content__firstfoote-account">need an account?</span>
-            <span class="content__firstfoote-accountRed">Sign up</span>
-            <div class="content__secondfooter">
-              <span class="content__secondfooter-password"
-                >forgot your password</span
-              >
-              <span class="content__secondfooter-passwordRed">retrive</span>
-            </div>
+
+        <div class="frofile__imformation">
+          <div class="frofile__imformation-name">
+            Song Sangou
+          </div>
+          <div class="frofile__imformation-location">
+            Seoul, South Korea
           </div>
         </div>
       </div>
-    </main>
+      <div class="btn__grid">
+        <div class="btn__grid-follow">Follow</div>
+        <div class="btn__grid-message">Message</div>
+      </div>
+      <div class="article">
+        <div class="article-followers">
+          <div class="article-followers__title">140</div>
+          <div class="article-followers__sub">followers</div>
+        </div>
+        <div class="article-following">
+          <div class="article-following__title">250</div>
+          <div class="article-following__sub">following</div>
+        </div>
+        <div class="article-images">
+          <div class="article-images__title">2250</div>
+          <div class="article-images__sub">images</div>
+        </div>
+      </div>
+      <div class="footer">
+        <i class="far fa-user"></i>
+        <i class="fas fa-user-friends"></i>
+        <i class="far fa-comments"></i>
+        <i class="fas fa-cog"></i>
+      </div>
+      <div class="footer__bar">
+        <div class="bar"></div>
+      </div>
+    </div>
   </body>
 </html>

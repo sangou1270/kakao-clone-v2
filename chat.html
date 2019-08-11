@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="css/styles.css" />
     <title>Chat | Kakao Clone</title>
   </head>
-  <body>
+  <body class="chats-body">
     <div class="status-bar">
       <div class="status-bar__comlumn">
         <span class="status-var__clock">13:32</span>
@@ -42,7 +42,7 @@
         </span>
       </div>
     </header>
-    <main class="chat">
+    <main class="chat-screen">
       <ul class="chat__messages">
         <span class="chat__timestamp">Friday, January 11, 2019</span>
         <li class="incoming-message message">
@@ -51,19 +51,36 @@
             class="g-avatar message__avatar"
           />
           <div class="message__content">
-            <span class="message__author">Best Friend</span>
-            <div class="message__bubble">
+            <span class="message__bubble">
               Comeon StartUp
-            </div>
+            </span>
+            <span class="message__author">Best Friend</span>
           </div>
-          <span class="message__timestamp"></span>
+        </li>
+        <li class="sent-message message">
+          <div class="message__content">
+            <span class="message__bubble">
+              Ok Wecome To My StartUp!!!
+            </span>
+          </div>
         </li>
         <li class="incoming-message message">
-          <span class="message__timestamp"></span>
+          <img
+            src="https://scontent-icn1-1.cdninstagram.com/vp/046ecd15901591c75d9c240a7de9e2e1/5DD5F4F6/t51.2885-19/s150x150/27579758_205719123501492_9181737070563950592_n.jpg?_nc_ht=scontent-icn1-1.cdninstagram.com"
+            class="m-avatar message__avatar"
+          />
           <div class="message__content">
-            <div class="message__bubble">
-              Ok Wecome To My StartUp!!!
-            </div>
+            <span class="message__bubble">
+              Congrats I love you!
+            </span>
+            <span class="message__author">Best Friend</span>
+          </div>
+        </li>
+        <li class="sent-message message">
+          <div class="message__content">
+            <span class="message__bubble">
+              Thank you see you soon!
+            </span>
           </div>
         </li>
       </ul>
